@@ -4,14 +4,22 @@ body{
 }
 h1{
     font-size: 40px;
-    
+}
+h2{
+    font-size: 40px;
+}   
+h3{
+    font-size: 20px;
+} 
+#third{
+    color:blueviolet;
 }
 .namecolor{
     color:rgb(255, 219, 13);
 }
     .rightwidth{
         width: 40%;
-        float: left;
+        float:left;
         margin-left: 5%;
         padding: 2px;
 }
@@ -32,4 +40,11 @@ h1{
     border-radius: 5px;
     color: white;
     font: 700;
+}
+.second-section{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+
 }
