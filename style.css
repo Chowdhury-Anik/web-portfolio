@@ -1,0 +1,19 @@
+body{
+    font-family: 'Redressed', cursive;
+}
+h1{
+    font-size: 40px;
+    
+}
+.namecolor{
+    color:rgb(255, 219, 13);
+    }
+    .rightwidth{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding: 2px;
+    }
+    .rightwidth img{
+        width: 100%;
+    }
