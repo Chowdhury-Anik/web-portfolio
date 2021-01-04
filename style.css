@@ -75,7 +75,25 @@ h3{
     border-image-slice: 1;
 }
 
-footer p{
+#fotleft{
+    width: 33%;
+    height:250px;
+    float: left;
+    background-color:bisque;
+}
+
+
+
+.fotcolor{
+    width:100%;
+    background-color:rgba(171, 149, 233, 0.521);
+    height:fit-content;
+    
+
+}
+#copyright{
     text-align: center;
-    font-size:14px;
+    text-transform:capitalize;
+    color: white;
+    background-color: black;
 }
