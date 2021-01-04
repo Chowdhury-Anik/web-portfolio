@@ -11,12 +11,13 @@ h2{
 h3{
     font-size: 20px;
 } 
-#third{
-    color:blueviolet;
-}
-.namecolor{
+    .namecolor{
     color:rgb(255, 219, 13);
 }
+    .thirdcolor{
+        color:lightgreen;
+
+    }
     .rightwidth{
         width: 40%;
         float:left;
@@ -45,6 +46,36 @@ h3{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+}
+.boxingclass{
+    box-shadow:10px 10px  40px gray;
+    border-radius: 5px;
+    height:60%;
+    background-color: white;
 
+}
 
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+   
+
+}
+
+#leftbox{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,blue);
+    border-image-slice: 1;
+}
+
+#rightbox{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, red);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    font-size:14px;
 }
